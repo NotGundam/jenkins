@@ -9,4 +9,4 @@ def main():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    var.route (host="0.0.0.0", port=8000)
+    var.run (host="0.0.0.0", port=8000)
